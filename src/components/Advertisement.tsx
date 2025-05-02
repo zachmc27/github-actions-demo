@@ -7,7 +7,7 @@ interface AdvertisementProps {
 function Advertisement(props: AdvertisementProps) {
   return (
     <div className="advertisement">
-      <h1>Zach is cool!</h1>
+      <h1>Zach is cool!!</h1>
       <p>{props.companyName}</p>
       <p>{props.productDescription}</p>
       <p>{props.price}</p>
